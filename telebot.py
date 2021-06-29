@@ -11,7 +11,7 @@ import json
 
 #key is stored in the OS's environment
 key  = os.environ.get('bladerunner_token')
-PORT = int(os.environ.get('PORT', 5000)
+PORT = int(os.environ.get('PORT', 5000))
 upd  = Updater(token=key,use_context=True)
 dispatcher = upd.dispatcher 
 bucketName = "riskybucket69"
