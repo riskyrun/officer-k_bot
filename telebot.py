@@ -7,10 +7,11 @@ import io
 import urllib.request
 import trp
 import json
+from key import key
 
 
 #key is stored in the OS's environment
-key  = "1480654903:AAEWbS0qOEWSZJDMHK1MZQYNu4RwR63sqfU"
+key  = '''insert key here or import it''' 
 upd  = Updater(token=key,use_context=True)
 dispatcher = upd.dispatcher
 bucketName = "riskybucket69"
